@@ -357,3 +357,25 @@ async function testPromisify() {
     fs.readv(123, [Buffer.from('wut')] as ReadonlyArray<NodeJS.ArrayBufferView>, 123, (err: NodeJS.ErrnoException | null, bytesRead: number, buffers: NodeJS.ArrayBufferView[]) => {
     });
 }
+
+{
+    const rmOptions = {
+        force: true,
+        recursive: true,
+        maxRetries: 123,
+        retryDelay: 123,
+    };
+    fs.rm('some/test/path', rmOptions, (err) => {
+        err; // $ExpectType ErrnoException | null
+    });
+
+    fs.rm('some/test/path', (err) => {
+        err; // $ExpectType ErrnoException | null
+    });
+
+    // $ExpectType Promise<void>
+    util.promisify(fs.rm)('some/test/path', rmOptions);
+
+    // $ExpectType Promise<void>
+    fs.promises.rm('some/test/path', rmOptions);
+}
