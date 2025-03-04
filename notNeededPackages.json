@@ -528,6 +528,10 @@
             "libraryName": "bugsnag-js",
             "asOfVersion": "3.1.0"
         },
+        "bugsnag__cuid": {
+            "libraryName": "@bugsnag/cuid",
+            "asOfVersion": "3.1.0"
+        },
         "builtin-modules": {
             "libraryName": "builtin-modules",
             "asOfVersion": "3.1.0"
@@ -1008,6 +1012,10 @@
             "libraryName": "colors",
             "asOfVersion": "1.2.1"
         },
+        "cometd": {
+            "libraryName": "cometd",
+            "asOfVersion": "7.0.5"
+        },
         "commander": {
             "libraryName": "commander",
             "asOfVersion": "2.12.2"
@@ -1079,6 +1087,10 @@
         "consul": {
             "libraryName": "consul",
             "asOfVersion": "2.0.0"
+        },
+        "content-range": {
+            "libraryName": "content-range",
+            "asOfVersion": "2.0.2"
         },
         "contentstack": {
             "libraryName": "contentstack",
@@ -1501,6 +1513,10 @@
             "libraryName": "direction",
             "asOfVersion": "2.0.0"
         },
+        "disqusjs": {
+            "libraryName": "disqusjs",
+            "asOfVersion": "3.0.0"
+        },
         "docker-file-parser": {
             "libraryName": "docker-file-parser",
             "asOfVersion": "1.0.3"
@@ -1552,6 +1568,10 @@
         "double-metaphone": {
             "libraryName": "double-metaphone",
             "asOfVersion": "2.0.0"
+        },
+        "dragselect": {
+            "libraryName": "dragselect",
+            "asOfVersion": "2.1.2"
         },
         "dsinjs__binary-tree": {
             "libraryName": "@dsinjs/binary-tree",
@@ -3009,6 +3029,10 @@
             "libraryName": "issue-regex",
             "asOfVersion": "3.1.0"
         },
+        "istextorbinary": {
+            "libraryName": "istextorbinary",
+            "asOfVersion": "5.0.0"
+        },
         "it-all": {
             "libraryName": "it-all",
             "asOfVersion": "1.0.4"
@@ -3588,6 +3612,10 @@
         "lower-case-first": {
             "libraryName": "lower-case-first",
             "asOfVersion": "1.0.1"
+        },
+        "lowlight": {
+            "libraryName": "lowlight",
+            "asOfVersion": "2.0.1"
         },
         "lru-cache": {
             "libraryName": "lru-cache",
@@ -4292,6 +4320,10 @@
         "node-pg-migrate": {
             "libraryName": "node-pg-migrate",
             "asOfVersion": "2.15.0"
+        },
+        "node-resque": {
+            "libraryName": "node-resque",
+            "asOfVersion": "6.0.1"
         },
         "node-sql-parser": {
             "libraryName": "node-sql-parser",
@@ -6411,6 +6443,10 @@
             "libraryName": "sonic-boom",
             "asOfVersion": "2.1.0"
         },
+        "sortobject": {
+            "libraryName": "sortobject",
+            "asOfVersion": "3.0.0"
+        },
         "soundex-code": {
             "libraryName": "soundex-code",
             "asOfVersion": "2.0.0"
@@ -6474,6 +6510,10 @@
         "standard-engine": {
             "libraryName": "standard-engine",
             "asOfVersion": "15.0.0"
+        },
+        "stat-mode": {
+            "libraryName": "stat-mode",
+            "asOfVersion": "1.0.0"
         },
         "stellar-base": {
             "libraryName": "stellar-base",
@@ -7618,6 +7658,10 @@
         "zapier-platform-core": {
             "libraryName": "zapier-platform-core",
             "asOfVersion": "6.1.1"
+        },
+        "zeromq": {
+            "libraryName": "zeromq",
+            "asOfVersion": "6.0.0"
         },
         "zetapush-js": {
             "libraryName": "zetapush-js",
