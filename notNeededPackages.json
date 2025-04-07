@@ -540,6 +540,10 @@
             "libraryName": "browserslist",
             "asOfVersion": "4.15.0"
         },
+        "bs58": {
+            "libraryName": "bs58",
+            "asOfVersion": "5.0.0"
+        },
         "bson": {
             "libraryName": "bson",
             "asOfVersion": "4.2.0"
@@ -7118,6 +7122,10 @@
         "tiny-secp256k1": {
             "libraryName": "tiny-secp256k1",
             "asOfVersion": "2.0.0"
+        },
+        "title": {
+            "libraryName": "title",
+            "asOfVersion": "4.0.0"
         },
         "title-case": {
             "libraryName": "title-case",
